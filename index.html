@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Interactive Web Page</h1>
+
+  <!-- Section 1: A simple form -->
+  <section>
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+      <label>Name: <input type="text" id="name"></label><br><br>
+      <label>Email: <input type="text" id="email"></label><br><br>
+      <label>Message: 
+        <textarea id="message"></textarea>
+      </label>
+      <p id="charCount">0 characters</p><br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <hr>
+
+  <!-- Section 2: Interactive counter -->
+  <section>
+    <h2>Counter</h2>
+    <button id="increaseBtn">Increase</button>
+    <button id="decreaseBtn">Decrease</button>
+    <p>Counter Value: <span id="counter">0</span></p>
+  </section>
+
+  <hr>
+
+  <!-- Section 3: Toggle section -->
+  <section>
+    <h2>Toggle Secret Message</h2>
+    <button id="toggleBtn">Show/Hide</button>
+    <p id="secretMessage" class="hidden">🎉 You found the secret!</p>
+  </section>
+
+  <hr>
+
+  <!-- Section 4: Random background color -->
+  <section>
+    <h2>Random Background Color</h2>
+    <button id="colorBtn">Change Background</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
